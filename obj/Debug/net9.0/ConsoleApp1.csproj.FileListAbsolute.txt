@@ -1,0 +1,14 @@
+C:\Users\wally.ferreira\Desktop\WALLY\C#.NET\ESTOQUE\ConsoleApp1\bin\Debug\net9.0\ConsoleApp1.exe
+C:\Users\wally.ferreira\Desktop\WALLY\C#.NET\ESTOQUE\ConsoleApp1\bin\Debug\net9.0\ConsoleApp1.deps.json
+C:\Users\wally.ferreira\Desktop\WALLY\C#.NET\ESTOQUE\ConsoleApp1\bin\Debug\net9.0\ConsoleApp1.runtimeconfig.json
+C:\Users\wally.ferreira\Desktop\WALLY\C#.NET\ESTOQUE\ConsoleApp1\bin\Debug\net9.0\ConsoleApp1.dll
+C:\Users\wally.ferreira\Desktop\WALLY\C#.NET\ESTOQUE\ConsoleApp1\bin\Debug\net9.0\ConsoleApp1.pdb
+C:\Users\wally.ferreira\Desktop\WALLY\C#.NET\ESTOQUE\ConsoleApp1\obj\Debug\net9.0\ConsoleApp1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\wally.ferreira\Desktop\WALLY\C#.NET\ESTOQUE\ConsoleApp1\obj\Debug\net9.0\ConsoleApp1.AssemblyInfoInputs.cache
+C:\Users\wally.ferreira\Desktop\WALLY\C#.NET\ESTOQUE\ConsoleApp1\obj\Debug\net9.0\ConsoleApp1.AssemblyInfo.cs
+C:\Users\wally.ferreira\Desktop\WALLY\C#.NET\ESTOQUE\ConsoleApp1\obj\Debug\net9.0\ConsoleApp1.csproj.CoreCompileInputs.cache
+C:\Users\wally.ferreira\Desktop\WALLY\C#.NET\ESTOQUE\ConsoleApp1\obj\Debug\net9.0\ConsoleApp1.dll
+C:\Users\wally.ferreira\Desktop\WALLY\C#.NET\ESTOQUE\ConsoleApp1\obj\Debug\net9.0\refint\ConsoleApp1.dll
+C:\Users\wally.ferreira\Desktop\WALLY\C#.NET\ESTOQUE\ConsoleApp1\obj\Debug\net9.0\ConsoleApp1.pdb
+C:\Users\wally.ferreira\Desktop\WALLY\C#.NET\ESTOQUE\ConsoleApp1\obj\Debug\net9.0\ConsoleApp1.genruntimeconfig.cache
+C:\Users\wally.ferreira\Desktop\WALLY\C#.NET\ESTOQUE\ConsoleApp1\obj\Debug\net9.0\ref\ConsoleApp1.dll
