@@ -13,12 +13,10 @@ produto.Preco = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
 Console.Write("Quantidade: ");
 produto.Quantidade = int.Parse(Console.ReadLine());
 
-Console.WriteLine($"Dados do produto: {produto.Nome} $ {produto.Preco}, {produto.Quantidade} unidades, Total {produto.ValorTotalEmEstoque()} ");
-
+Console.WriteLine(produto.ToString());
 Console.Write("Digite o numero a ser adicionado em estoque: ");
 produto.AdicionarEmEstoque(int.Parse(Console.ReadLine(), CultureInfo.InvariantCulture));
-
-Console.WriteLine($"Dados do produto: {produto.Nome} $ {produto.Preco}, {produto.Quantidade} unidades, Total {produto.ValorTotalEmEstoque()}");
+Console.WriteLine(produto.ToString());
 Console.Write("Digite o numero a ser removido em estoque: ");
 produto.RemoverEmEstoque(int.Parse(Console.ReadLine(), CultureInfo.InvariantCulture));
-Console.WriteLine($"Dados do produto: {produto.Nome} $ {produto.Preco}, {produto.Quantidade} unidades, Total {produto.ValorTotalEmEstoque()}");
+Console.WriteLine(produto.ToString());

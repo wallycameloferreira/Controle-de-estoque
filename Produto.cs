@@ -20,4 +20,9 @@ public class Produto
     {
         Quantidade -= quantidade;
     }
+
+    public override string ToString()
+    {
+        return $"Dados do produto: {Nome} $ {Preco}, {Quantidade} unidades, Total {ValorTotalEmEstoque()}";
+    }
 }
