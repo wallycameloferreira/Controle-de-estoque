@@ -3,20 +3,26 @@
 using System.Globalization;
 using ConsoleApp1;
 
-Produto produto = new Produto();
+
 
 Console.WriteLine("Entre com os dados abaixo");
 Console.Write("Nome do produto: ");
-produto.Nome = Console.ReadLine();
-Console.Write("Preço: ");
-produto.Preco = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
-Console.Write("Quantidade: ");
-produto.Quantidade = int.Parse(Console.ReadLine());
+string nome = Console.ReadLine();
 
-Console.WriteLine(produto.ToString());
+Console.Write("Preço: ");
+double preco = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+
+Console.Write("Quantidade: ");
+int Quantidade = int.Parse(Console.ReadLine());
+
+Produto produto = new Produto(nome, preco, Quantidade);
+
+Console.WriteLine(produto);
 Console.Write("Digite o numero a ser adicionado em estoque: ");
 produto.AdicionarEmEstoque(int.Parse(Console.ReadLine(), CultureInfo.InvariantCulture));
-Console.WriteLine(produto.ToString());
+
+Console.WriteLine(produto);
 Console.Write("Digite o numero a ser removido em estoque: ");
+
 produto.RemoverEmEstoque(int.Parse(Console.ReadLine(), CultureInfo.InvariantCulture));
-Console.WriteLine(produto.ToString());
+Console.WriteLine(produto); 

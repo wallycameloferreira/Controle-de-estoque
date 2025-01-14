@@ -6,6 +6,13 @@ public class Produto
     public double Preco;
     public int Quantidade;
 
+    public Produto(string nome, double preco, int quantidade)
+    {
+        Nome = nome;
+        Preco = preco;
+        Quantidade = quantidade;
+    }
+
     public double ValorTotalEmEstoque()
     {
         return Quantidade * Preco;
@@ -23,6 +30,6 @@ public class Produto
 
     public override string ToString()
     {
-        return $"Dados do produto: {Nome} $ {Preco}, {Quantidade} unidades, Total {ValorTotalEmEstoque()}";
+        return $"Dados do produto: {Nome} R$ {Preco.ToString("F2")}, {Quantidade} unidades, Total R$ {ValorTotalEmEstoque().ToString("F2")}";
     }
 }
